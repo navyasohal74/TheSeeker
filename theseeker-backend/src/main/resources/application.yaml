@@ -1,8 +1,8 @@
 spring:
   ai:
     openai:
-      base-url: https://openrouter.ai/api
-      api-key: 
+      base-url: https://openrouter.ai/api/v1
+      api-key: ${SPRING_AI_OPENAI_API_KEY}
       chat:
         options:
           model: x-ai/grok-code-fast-1
